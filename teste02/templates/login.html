@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form action="{{url_for('login')}}" method="POST">
+        <label for="name">
+            Matrícula
+        </label>
+        <input type="text" name="matricula" placeholder="Digite sua matricula">
+        <label for="name"></label>
+            Senha
+        </label>
+        <input type="password" name="password" placeholder="Digite sua senha">
+        <input type="submit" value="Enviar">
+        
+    </form>
+
+</body>
+</html>

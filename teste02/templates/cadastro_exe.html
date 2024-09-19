@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Exercício</title>
+</head>
+<body>
+    <h1>Cadastro Exercício</h1>
+    <form action="{{url_for('cadastro_exe')}}" method="POST">
+        <label for="name">
+            Exercicio
+        </label>
+        <input type="text" name="nome_exercicio" placeholder="Digite seu exercício">
+
+        <label for="name"></label>
+            Descrição
+        </label>
+        <input type="txt" name="descricao_exercicio" placeholder="Digite a descrição do exercício">
+        
+        <label for="name"></label>
+            Matrícula
+        </label>
+        <input type="password" name="password" placeholder="Digite sua matricula">
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
